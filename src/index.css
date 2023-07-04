@@ -13,3 +13,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul {
+  padding-left: 0;
+}
+
+.formWrapper {
+  min-width: 500px;
+}
+
+.mb-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 20px;
+  border: 2px solid black;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.contactListStile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.deleteContactBtn {
+  margin: 10px 20px;
+}
